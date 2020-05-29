@@ -268,7 +268,7 @@ sudo service httpd start
 ```
 
 ※ /etc/httpd/conf/httpd.conf に設定を書く
-* nginxでもいい
+※ nginxでもいい
 
 - IPにアクセス
   - EC2で"HelloWorld"が表示される
