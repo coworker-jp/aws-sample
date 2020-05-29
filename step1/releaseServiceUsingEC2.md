@@ -56,3 +56,4 @@ sudo service httpd start
 
 - IPにアクセス
   - EC2で"HelloWorld"が表示される
+  
