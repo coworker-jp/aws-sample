@@ -58,3 +58,13 @@ sudo service httpd start
 - IPにアクセス
   - EC2で"HelloWorld"が表示される
 ![helloworld](https://github.com/coworker-jp/aws-sample/blob/master/step1/img/helloworkd.png?raw=true)
+
+
+## 本番運用にむけて ~ 
+- VPC, subnetをしっかり構築
+- Route53(DNS)でドメインを紐付けて引き当てられるようにしよう
+- RDSなど使って、DBをつなぐ
+- ALBにつなげて、Load Balancing
+- キャッシュさせたかったら, 前面にCloudFrontを置こう
+
+
