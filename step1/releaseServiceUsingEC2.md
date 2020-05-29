@@ -11,6 +11,7 @@
 - EC2で"HelloWorld"を表示
 
 ## AWSのサービス群
+- ![aws services](https://github.com/coworker-jp/aws-sample/blob/master/step1/img/services.png?raw=true)
 - Route53
 - EC2
 - RDS
@@ -56,4 +57,4 @@ sudo service httpd start
 
 - IPにアクセス
   - EC2で"HelloWorld"が表示される
-  
+  - ![helloworld](https://github.com/coworker-jp/aws-sample/blob/master/step1/img/helloworkd.png?raw=true)
