@@ -57,4 +57,4 @@ sudo service httpd start
 
 - IPにアクセス
   - EC2で"HelloWorld"が表示される
-  - ![helloworld](https://github.com/coworker-jp/aws-sample/blob/master/step1/img/helloworkd.png?raw=true)
+![helloworld](https://github.com/coworker-jp/aws-sample/blob/master/step1/img/helloworkd.png?raw=true)
