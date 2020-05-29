@@ -36,3 +36,23 @@ ssh -i /path/my-key-pair.pem ec2-user@ec2-198-51-100-1.compute-1.amazonaws.com
 ```
   - [SSH クライアントを使用して Linux インスタンスに接続する](https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
 
+## Service公開をしてみる
+```
+# yum を update
+sudo yum update -y
+
+# apache install
+sudo yum -y install httpd24
+
+# 該当file作成
+cd /var/www/html
+sudo vim index.html
+
+sudo service httpd start
+```
+
+※ /etc/httpd/conf/httpd.conf に設定を書く
+* nginxでもいい
+
+- IPにアクセス
+  - EC2で"HelloWorld"が表示される
