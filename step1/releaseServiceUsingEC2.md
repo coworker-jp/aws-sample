@@ -11,7 +11,7 @@
 - EC2で"HelloWorld"を表示
 
 ## AWSのサービス群
-- ![aws services](https://github.com/coworker-jp/aws-sample/blob/master/step1/img/services.png?raw=true)
+![aws services](https://github.com/coworker-jp/aws-sample/blob/master/step1/img/services.png?raw=true)
 
 ### それぞれ一行で言うと
 ```
